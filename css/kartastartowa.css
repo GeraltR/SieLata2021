@@ -1,0 +1,59 @@
+table {
+    width: 90%;
+}
+
+table, th, td {
+    border: 0.5px solid black;
+    border-spacing:  5px 5px;
+}
+
+th {
+    padding: 10px 10px 10px 10px;
+    width: 5%; 
+    text-align: center;
+    font: 1em sans-serif;
+    height: 40px;
+}
+
+.duze {
+    font-size: 20px;
+}
+
+.male {
+    font-size: 14px;
+}
+
+td {
+    width: 5%;
+    height: 60px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+.pmale {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.pleft{
+    text-align: left;
+    font-weight: 300;
+}
+.bigtd {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+}
+.tstopka {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}

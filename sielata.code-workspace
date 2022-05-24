@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"fiveServer.browser": [
+
+
+		],
+		"fiveServer.navigate": false
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+
+			{
+				"type": "chrome",
+				"request": "launch",
+				"name": "Uruchom Chrome z localhost",
+				"url": "https://localhost/SieLata2021",
+				"webRoot": "${workspaceFolder}",
+			}
+		]
+	}
+}

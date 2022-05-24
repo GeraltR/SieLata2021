@@ -1,0 +1,262 @@
+img.logo-default {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+p.moj-error {
+    color: #ed011efa;
+    font-weight: 650;
+}
+
+.navbar-header img{
+    object-fit: scale-down;
+}
+
+.btn-outline.btn-primary {
+    color: #2e6da4;
+  }
+.btn-outline:hover.btn-primary, .btn-outline:hover.btn-success, .btn-outline:hover.btn-info, .btn-outline:hover.btn-warning, .btn-outline:hover.btn-danger {
+    color: #FF9933;
+  }
+
+.th-LP {
+    width:5%;
+    text-align: right;
+}
+.th-Nazwisko {
+    width: 20%;
+}
+.th-NazwaMod {
+   width: 35%;
+}
+.th-Klas {
+    width: 12%;
+}
+.th-Produc {
+    width: 15%;
+}
+.th-Ocena {
+    width: 5%;
+    text-align: right;
+}
+.footer footer div hr {
+    height: 15px;
+}
+.tr-nagroda{
+    background: #FF9933;
+}
+.td-suma{
+    color: crimson;
+    text-align: center;
+    font-weight:600;
+}
+.td-miejsce{
+    color: #5cb85c;
+    text-align: center;
+    font-weight:600;
+}
+
+/*--------------------------------------------------
+[Moj CheckBox]
+----------------------------------------------------*/
+.przelacznik {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .przelacznik input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  .przelacznik:hover input ~ .checkmark {
+      background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .przelacznik input:checked ~ .checkmark {
+      background-color: rgba(33, 149, 243, 0.568);
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .przelacznik input:checked ~ .checkmark:after {
+      display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .przelacznik .checkmark:after {
+      left: 9px;
+      top: 5px;
+      width: 8px;
+      height: 15px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  }
+.przelacznikInv {
+    color: #2e6da4;
+}
+.przelacznik-inline {
+    display: inline;
+}
+.przelacznik-inline input:checked ~ .checkmark:after {
+    display: inline;
+}
+
+
+.btnfiltr {
+    float: none;
+    width: auto;
+}
+
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+  }
+
+.modal-header#modalBlad, h4, .close {
+    background-color: red;
+    color:white !important;
+    text-align: center;
+}
+
+.modal-dialog {
+    margin: 20% auto;
+}
+.btn-inline{
+    margin-right: 10px;
+    width: 30%;
+}
+#nazwanagrody {
+  background-color: #FF9933;
+  text-align: center;
+}
+#dla {
+    background-color: none;
+}
+#zawodnik_dyplom_nazwisko {
+    text-align: left;
+}
+#zawodnik_dyplom_model {
+    text-align: right;
+}
+
+.naglowek-napis{
+    float: right;
+    margin: 5rem auto;
+}
+
+.naglowek-kolejny{
+    height: 9rem;
+    font-size: 8rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.5rem;
+}
+
+.naglowek-festiwal{
+    height: 5rem;
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.5rem;
+}
+
+.naglowek-modelarski{
+    height: 6rem;
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.5rem;
+    border-bottom: 0.5rem solid white;
+}
+
+.naglowek-jaworzno{
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.678);
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+}
+
+.naglowek-termin{
+    height:3rem;
+    font-size:2rem;
+    font-weight: 500;
+    color:white;
+    letter-spacing:0.5rem;
+}
+
+@media (max-width:720px){
+    .naglowek-napis{
+        float: left;
+        margin: 1rem 1rem;
+    }
+
+    .naglowek-kolejny{
+        height: 3rem;
+        font-size: 4rem;
+    }
+
+    .naglowek-festiwal{
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+        height: 2rem;
+        font-size: 2rem;
+    }
+
+    .naglowek-modelarski{
+        margin-top: 1rem;
+        height: 3rem;
+        font-size: 2rem;
+        border-bottom: 0.3rem solid white;
+    }
+
+    .naglowek-jaworzno{
+        height: 2rem;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.3rem;
+    }
+
+    .naglowek-termin{
+        height:2rem;
+        font-size:1.3rem;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+    }
+}

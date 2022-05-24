@@ -1,0 +1,57 @@
+p{
+	font-size: 20px;
+    text-align: center;
+}
+#naglowek {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: 8px;
+}
+#nagroda{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+}
+#zawodnik {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#model {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 28px;
+}
+#rodzaj{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 28px;
+}
+#summernote{
+	.no-print {
+        display: none;
+    }
+}
+@media print {
+    .no-print, .no-print *
+    {
+        display: none !important;
+	}
+	.hidden-print {
+		display: none !important;
+	  }
+}
+#pasek{
+	.no-print, .no-print *
+    {
+        display: none !important;
+	}
+	.hidden-print {
+		display: none !important;
+	  }
+}
