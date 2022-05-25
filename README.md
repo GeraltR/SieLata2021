@@ -1,5 +1,5 @@
 # SieLata2021
-Drugie wcielenie strony i pierwsze upublicznione wcielenie już nierozwijane. 2021 gdyż nie bedzie ono już rozwijane. Powstaje nowa strona i aplikacja tym razem w node-ie.
+Drugie wcielenie strony i pierwsze upublicznione na github-ie. Ta wersja nie będzie już rozwijana. Nazwa z rokiem 2021, gdyż powstaje nowa strona i aplikacja tym razem w node-ie.
 
 Strona powstała kilka lat temu (chyba w 2015) w oparciu o moje pierwsze próby programowania w php z myślą ułatwienia obsługi corocznych zawodów modelarskich. 
 Wcześniej strona była używana tylko do rejestracji zawodników oraz prezentacji wyników. Do oceniania używany był program desktop-owy napisany w C#. 
