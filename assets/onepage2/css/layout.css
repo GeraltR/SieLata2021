@@ -1,17 +1,62 @@
+:root {
+  --orange: #ff8000;
+  --mainBackground: #fff;
+  --category: #ffdabb;
+  --unactive: #000;
+  --mainGray: #666;
+  --fontTitleMain: #000;
+  --fontTitleRocznica: #f11212b4;
+  --fontSubtitle: #000;
+  --fontSubtitleDark: rgb(199, 50, 50);
+}
+
 /*--------------------------------------------------
     [SASS PLACEHOLDER]
 ----------------------------------------------------*/
 /* Carousel Title */
+.carousel .carousel-position-one {
+  top: 55%;
+}
+.carousel .carousel-position-two {
+  top: 60%;
+}
+.carousel .carousel-position-three {
+  top: 52%;
+}
+
+.carousel .carousel-title-v1{
+  top: 58%;
+}
+.carousel .carousel-title-v2{
+  top: 65%;
+}
+.carousel .carousel-title-v3
+{
+  top:58%;
+}
+
 .carousel .carousel-title-v1, .carousel .carousel-title-v2, .carousel .carousel-title-v3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.4; }
 
+
 /* Carousel Subtitle */
 .carousel .carousel-subtitle-v1, .carousel .carousel-subtitle-v2, .carousel .carousel-subtitle-v3 {
-  font-size: 21px;
-  font-weight: 600; }
-
+  font-size: 38px;
+  font-weight: 600;
+  top: 75%
+}
+.carousel .carousel-subtitle-v1-1, .carousel .carousel-subtitle-v2-1, .carousel .carousel-subtitle-v3-1 {
+  font-size: 18px;
+  font-weight: 300;
+  top: 85%;
+}
+.carousel .carousel-subtitle-v1-2, .carousel .carousel-subtitle-v2-2, .carousel .carousel-subtitle-v3-2 {
+  font-size: 18px;
+  font-weight: 300;
+  top: 90%;
+}
 /* Carousel Position Left */
 .carousel .carousel-position-one, .carousel .carousel-position-two, .carousel .carousel-position-three {
   position: absolute;
@@ -1766,28 +1811,29 @@ a:focus {
     background-size: cover;
     background-position: center center; }
   .carousel .carousel-title-v1 {
-    color: #fff;
+    color: var(--fontTitleMain);
     text-transform: none;
   }
   .carousel .carousel-title-v2 {
-    color: #fff;
+    color: var(--fontSubtitleDark);
     text-transform: none;
   }
   .carousel .carousel-title-v3 {
-    color: #fff;
+    color: var(--fontTitleMain);
     /* left: 70%; */
     text-transform: none;
   }
-  .carousel .carousel-title-v3:before{
-    content: "80 ";
+  .carousel .carousel-title-v3:before, .carousel .carousel-title-v1:before{
+    color: var(--fontTitleRocznica);
+    content: "90 ";
     font-size: 70px;
   }
   .carousel .carousel-subtitle-v1 {
-    color: #80d0de; }
+    color: var(--fontSubtitle) }
   .carousel .carousel-subtitle-v2 {
-    color: #a8c6d6;}
+    color: var(--fontSubtitleDark);}
   .carousel .carousel-subtitle-v3 {
-    color: #fff;
+    color: var(--fontSubtitle);
   }
   .carousel .carousel-subtitle-v3 p{
     margin-top: 0px;
@@ -1795,25 +1841,40 @@ a:focus {
     position: -20px;
     font-size: 40px;
   }
-  .carousel .carousel-position-one {
-    top: 55%; }
-  .carousel .carousel-position-two {
-    top: 70%; }
-  .carousel .carousel-position-three {
-    top: 50%; }
   .carousel .carousel-caption .animate-delay {
     animation-delay: 1s; }
 
 /* Stylesheet design for under max-width: 768px */
 @media (max-width: 768px) {
   /* 768px */
-  .carousel .carousel-title-v1 {
-    font-size: 30px; }
+  .carousel .carousel-title-v1,
   .carousel .carousel-title-v2,
   .carousel .carousel-title-v3 {
-    font-size: 30px; }
-  .carousel .carousel-subtitle-v1 {
-    font-size: 18px; }
+    color: var(--mainBackground);
+    font-size: 25px;
+  }
+  .carousel .carousel-subtitle-v1,
+  .carousel .carousel-subtitle-v2,
+  .carousel .carousel-subtitle-v3 {
+    color: var(--mainBackground);
+    font-size: 19px;
+    top: 77%;
+  }
+
+  .carousel .carousel-subtitle-v1-1,
+  .carousel .carousel-subtitle-v2-1,
+  .carousel .carousel-subtitle-v3-1{
+    color: var(--mainBackground);
+    font-size: 14px;
+    top: 85%;
+  }
+  .carousel .carousel-subtitle-v1-2,
+  .carousel .carousel-subtitle-v2-2,
+  .carousel .carousel-subtitle-v3-2{
+    color: var(--mainBackground);
+    font-size: 14px;
+    top: 90%;
+  }
   .logo-default-mobile {
     display: none;
   }

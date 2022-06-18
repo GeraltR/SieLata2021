@@ -421,7 +421,7 @@
     <footer role="contentinfo" class="footer">
 
         <div class="text-center text-small">
-            ©2021 Geralt
+            ©2022 Geralt
         </div>
     </footer>
     <!-- Layout End -->

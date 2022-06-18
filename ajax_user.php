@@ -6,9 +6,9 @@
     $userpass = $_POST['userpass'];
     $username = $_POST['username'];
 
-    $dzien   = 11;
+    $dzien   = 10;
     $miesiac = 9;
-    $rok     = 2021;
+    $rok     = 2022;
     $godzina = 20;
     $minuta  = 0;
     $sekunda = 0;

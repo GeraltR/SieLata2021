@@ -60,7 +60,7 @@
                         </span>
                     </button>
                     <a class="navbar-brand" href="#intro">
-                        <img class="logo-default" src="assets/onepage2/img/sielata_logo_53w.gif" alt="SieLata">
+                        <img class="logo-default" src="assets/onepage2/img/sielata_logo_53.gif" alt="SieLata">
                         <img class="logo-default-mobile" style="display:none;" src="assets/onepage2/img/sielata_logo_53.gif" alt="SieLata">
                         <img class="logo-scroll" src="assets/onepage2/img/sielata_logo_53.gif" alt="SieLata">
                     </a>
@@ -229,15 +229,21 @@
                 <div class="item carousel-item-one active">
                     <div class="container">
                         <h3 class="carousel-position-one animate-delay carousel-title-v1" data-animation="animated fadeInDown">
-                            Wystawa grafik <br/> Piotra Forkasiewicza
+                            rocznica zwycięstwa
                         </h3>
-                        <p class="carousel-position-three animate-delay carousel-subtitle-v1" data-animation="animated fadeInDown">
-
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v1" style="margin-left: 5px;text-transform:none;" data-animation="animated fadeInDown">
+                        Franciszka Żwirki i Stanisława Wigury
                         </p>
-                        <a id="btn-carousel-clients" href="#clients" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Rejestracja</a>
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v1 carousel-subtitle-v1-1" style="margin-left: 5px;text-transform:none;letter-spacing:4px;" data-animation="animated fadeInDown">
+                        Challenge International de Tourisme
+                        </p>
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v1 carousel-subtitle-v1-2" style="margin-left: 5px;text-transform:none;letter-spacing:3px;" data-animation="animated fadeInDown">
+                        1932-2022
+                        </p>
+                        <a id="btn-carousel-clients" href="#clients" class="carousel-position-one animate-delay btn-brd-white" data-animation="animated fadeInUp">Rejestracja</a>
                         <div class="naglowek-napis">
                             <div class="row naglowek-kolejny">
-                                XII
+                                XIII
                             </div>
                             <div class="row naglowek-festiwal">
                                 FESTIWAL
@@ -249,7 +255,7 @@
                                 Jaworzno
                             </div>
                             <div class="row naglowek-termin">
-                            11-12 września 2021
+                            10-11 września 2022
                             </div>
                         </div>
                     </div>
@@ -259,13 +265,16 @@
                 <div class="item carousel-item-two">
                     <div class="container">
                         <h3 class="carousel-position-one animate-delay carousel-title-v2" data-animation="animated fadeInDown">
-                        Wystawa grafik <br/> Piotra Forkasiewicza
+                        Wystawa grafik
                         </h3>
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v2" style="margin-left: 5px;text-transform:none;" data-animation="animated fadeInDown">
+                        Tomasza Sadzinicy
+                        </p>
                         <!-- <a href="#portfolio" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Czytaj więcej</a>-->
-                        <a id="btn-carousel-portfolio" href="#clients" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Rejestracja</a>
+                        <a id="btn-carousel-portfolio" href="#clients" class="carousel-position-two animate-delay btn-brd-white" data-animation="animated fadeInUp">Rejestracja</a>
                         <div class="naglowek-napis">
                             <div class="row naglowek-kolejny">
-                                XII
+                                XIII
                             </div>
                             <div class="row naglowek-festiwal">
                                 FESTIWAL
@@ -277,7 +286,7 @@
                                 Jaworzno
                             </div>
                             <div class="row naglowek-termin">
-                            11-12 września 2021
+                            10-11 września 2022
                             </div>
                         </div>
                     </div>
@@ -286,24 +295,23 @@
                 <!-- Third slide -->
                 <div class="item carousel-item-three">
                     <div class="container">
-                        <h3 class="carousel-position-one animate-delay carousel-title-v3" style="top:55%;" data-animation="animated fadeInDown">
-                            rocznica oblotu
-                            <!-- </br>Avro Lancaster -->
+                        <h3 class="carousel-position-one animate-delay carousel-title-v3" data-animation="animated fadeInDown">
+                            rocznica zwycięstwa
                         </h3>
-                        <p class="carousel-position-two animate-delay carousel-subtitle-v3" style="margin-left: 5px;text-transform:none;top:73%;letter-spacing:4px;" data-animation="animated fadeInDown">
-                        samolotu bombowego
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v3" style="margin-left: 5px;text-transform:none;" data-animation="animated fadeInDown">
+                        Franciszka Żwirki i Stanisława Wigury
                         </p>
-                        <p class="carousel-position-two animate-delay carousel-subtitle-v3" style="font-size:40px;margin-left: 5px;text-transform:none;top:76%;" data-animation="animated fadeInDown">
-                        Avro Lancaster
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v3 carousel-subtitle-v3-1" style="margin-left: 5px;text-transform:none;letter-spacing:4px;" data-animation="animated fadeInDown">
+                        Challenge International de Tourisme
                         </p>
-                        <p class="carousel-position-two animate-delay carousel-subtitle-v3" style="margin-left: 5px;text-transform:none;top:85%;letter-spacing:3px;" data-animation="animated fadeInDown">
-                        1941-2021
+                        <p class="carousel-position-two animate-delay carousel-subtitle-v3 carousel-subtitle-v3-2" style="margin-left: 5px;text-transform:none;letter-spacing:3px;" data-animation="animated fadeInDown">
+                        1932-2022
                         </p>
                         <!--<a href="#about" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">O nas</a> -->
                         <a id="btn-carousel-about" href="#clients" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Rejestracja</a>
                         <div class="naglowek-napis">
                             <div class="row naglowek-kolejny">
-                                XII
+                                XIII
                             </div>
                             <div class="row naglowek-festiwal">
                                 FESTIWAL
@@ -315,7 +323,7 @@
                                 Jaworzno
                             </div>
                             <div class="row naglowek-termin">
-                            11-12 września 2021
+                            10-11 września 2022
                             </div>
                         </div>
                     </div>
@@ -396,8 +404,8 @@
                                     <p></p>
                                     <button type="submit" class="btn-brd-white btn-md btn-block" onclick="regulamin()">Regulamin</button>
                                     <p></p>
-                                    <button type="submit" class="btn-brd-white btn-md btn-block" onclick="procbezp()">Procedury bezpieczeństwa</button>
-                                    <p></p>
+                                    <!-- <button type="submit" class="btn-brd-white btn-md btn-block" onclick="procbezp()">Procedury bezpieczeństwa</button>
+                                    <p></p> -->
                                     <button type="submit" id="skleroza" class="btn-danger btn-md btn-block" data-toggle="modal" data-target="#exampleModalCenter">Zapomniałem hasła</button>
                                 </div>
                                 <!-- END Sekcja obsługi logowania-->
@@ -518,10 +526,10 @@
                     </div><!-- //end heading -->
                     <!-- Begin Sponsorzy -->
                     <div class="owl-carousel" >
-                        <div class="item" data-quote="#client-quote-1">
+                        <!-- <div class="item" data-quote="#client-quote-1">
                             <a href="https://www.wak.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/wak.gif" alt="Wydawnictwo WAK"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-2">
                             <a href="https://www.sslp.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/slpp.gif" alt="Światowe Stowarzyszenie Lotników Polskich"></a>
@@ -534,10 +542,10 @@
                             <a href="https://www.betlejem.org/" target="_blank">
                             <img src="assets/onepage2/img/clients/wspolnota.gif" alt="Wspólnota Betlejem"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-5">
+                        <!-- <div class="item" data-quote="#client-quote-5">
                             <a href="https://www.facebook.com/Wektor-340383536166552" target="_blank">
                             <img src="assets/onepage2/img/clients/wektor.gif" alt="Wydawnictwo WEKTOR"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-6">
                             <a href="https://www.radioartmdk.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/radio_art.png" alt="Internetowe Radio Jaworzno"></a>
@@ -546,229 +554,229 @@
                             <a href="https://www.zsp3.jaworzno.edu.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/zsp3.gif" alt="ZSP 3 Jaworzno"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-8">
+                        <!-- <div class="item" data-quote="#client-quote-8">
                             <a href="https://www.facebook.com/SzkutnikModel/" target="_blank">
                             <img src="assets/onepage2/img/clients/szkutnik.gif" alt="Szkutnik model"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-9">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-9">
                             <a href="http://toro-model.home.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/toromodel.gif" alt="toro-model"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-10">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-10">
                             <a href="http://www.swiatzkartonu.eu/" target="_blank">
                             <img src="assets/onepage2/img/clients/swiatzkartonu.gif" alt="Świat z kartonu"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-11">
                             <a href="https://mdk.jaworzno.edu.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/mdk_jaworzno.png" alt="Młodzieżowy Dom Kultury Jaworzno"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-12">
+                        <!-- <div class="item" data-quote="#client-quote-12">
                             <a href="http://yahumodels.siemianowice.com/" target="_blank">
                             <img src="assets/onepage2/img/clients/yahumodels.gif" alt="yahumodels"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-13">
-                            <a href="https://www.um.jaworzno.pl/" target="_blank">
-                            <img src="assets/onepage2/img/clients/120.png" alt="120 Lat miasta Jaworzna"></a>
+                            <a href="https://techmod.pl/" target="_blank">
+                            <img src="assets/onepage2/img/clients/techmod.jpg" alt="Techmod"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-14">
+                        <!-- <div class="item" data-quote="#client-quote-14">
                             <a href="https://www.cobi.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/cobi.gif" alt="COBI"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-15">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-15">
                             <a href="https://www.revell.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/revell.jpg" alt="REVELL"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-16">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-16">
                             <a href="https://vesper.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/vesper.jpg" alt="vesper"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-17">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-17">
                             <a href="http://www.aber.net.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/aber.gif" alt="ABER"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-18">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-18">
                             <a href="http://agtom.eu/" target="_blank">
                             <img src="assets/onepage2/img/clients/agtom.png" alt="AGTOM"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-19">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-19">
                             <a href="http://www.answer.pl/pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/answer.gif" alt="Wydanictwo ANSWER"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-20">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-20">
                             <a href="http://www.armahobby.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/armahobby.gif" alt="ARMA Hobby"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-21">
                             <a href="http://www.bmzzszklo.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/bmzzszkło.jpg" alt="Branżowy Związek Zawodowy Szkło"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-22">
+                        <!-- <div class="item" data-quote="#client-quote-22">
                             <a href="http://www.drafmodel.pl" target="_blank">
                             <img src="assets/onepage2/img/clients/modeldraf.gif" alt="Wydawnictwo Draf Model"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-23">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-23">
                             <a href="http://extramodel.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/extramodel.gif" alt="Extra Model"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-24">
                             <a href="http://wrzesien1939.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/firs_to_fight.gif" alt="First to Fight"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-25">
+                        <!-- <div class="item" data-quote="#client-quote-25">
                             <a href="http://fundacja-energetyka.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/fundacja.jpg" alt="Fundajca Energetyka Na Rzecz Polski Południowej"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-26">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-26">
                             <a href="https://www.gpm.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/gpm.gif" alt="Wydawnictwo GPM"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-27">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-27">
                             <a href="http://hataka-hobby.com/" target="_blank">
                             <img src="assets/onepage2/img/clients/hataka.gif" alt="HATAKA-Hobby"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-28">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-28">
                             <a href="http://www.ibg.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/ibg.gif" alt="IBG"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-29">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-29">
                             <a href="http://ipn.gov.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/ipn.jpg" alt="ipn"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-30">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-30">
                             <a href="http://www.jsc.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/jsc.gif" alt="Wydanictwo JSC"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-31">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-31">
                             <a href="http://www.kartonowa.pl//" target="_blank">
                             <img src="assets/onepage2/img/clients/profile.gif" alt="Kartonowa kolekcja"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-32">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-32">
                             <img src="assets/onepage2/img/clients/edekmodel.gif" alt="EDEK Model"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-33">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-33">
                             <a href="http://www.modelmaker.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/modelmaker.gif" alt="Model Maker"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-34">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-34">
                             <a href="http://www.model-kom.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/modelkom.gif" alt="model-kom"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-35">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-35">
                             <a href="http://www.hobbyzone.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/hobbyzone.gif" alt="hobbyzone"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-36">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-36">
                             <a href="https://www.facebook.com/Mistel2/" target="_blank">
                             <img src="assets/onepage2/img/clients/papieroplastyka.jpg" alt="Papieroplastyka"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-37">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-37">
                             <a href="http://sklep.mazowszelok.pl/index.php/pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/malymodelarz.gif" alt="Mały Modelarz"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-38">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-38">
                             <a href="http://fhmarkus.pl" target="_blank">
                             <img src="assets/onepage2/img/clients/markus.png" alt="FHU Markus"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-39">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-39">
                             <a href="http://www.martola.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/martola.gif" alt="Martola"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-40">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-40">
                             <a href="http://www.master-model.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/master.gif" alt="MASTER MODEL Piotr Czerkasow"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-41">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-41">
                             <a href="https://maxhobby.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/max_hobby.gif" alt="MAX Hobby"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-42">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-42">
                             <a href="https://www.mojehobby.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/mojehobby.gif" alt="Moje Hobby"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-43">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-43">
                             <a href="http://mrhobby.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/mrhobby.gif" alt="MR Hobby"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-44">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-44">
                             <a href="http://www.m-zone.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/m-zone.gif" alt="M-Zone"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-45">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-45">
                             <a href="https://olfa.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/olfa.jpg" alt="OLFA"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-46">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-46">
                             <a href="https://orlik-models.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/orlik.gif" alt="Wydawnictwo ORLIK"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-47">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-47">
                             <a href="http://sklej-model.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/sklejmodel.gif" alt="Wydawnictwo SKLEJ MODEL"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-48">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-48">
                             <a href="https://stadlermedia.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/stadler.png" alt="Stadler Media"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-49">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-49">
                             <a href="https://seahorse.pl/pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/logoseahorse.jpg" alt="Wydawnictwo SeaHorse"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-50">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-50">
                             <a href="http://www.stratusbooks.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/stratus.gif" alt="Wydawnictwo STRATUS"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-51">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-51">
                             <a href="https://kartonowakolej.pl" target="_blank">
                             <img src="assets/onepage2/img/clients/kartonowa-kolej-logo.png" alt="Kartonowa kolej"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-52">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-52">
                             <a href="https://www.facebook.com/muzeumstatkow" target="_blank">
                             <img src="assets/onepage2/img/clients/rafal.jpg" alt="Muzeum statków"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-53">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-53">
                             <a href="http://www.remgips.eu/" target="_blank">
                             <img src="assets/onepage2/img/clients/remigps.png" alt="REMGIPS"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-54">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-54">
                             <a href="https://www.facebook.com/groups/374161667193585/?ref=share" target="_blank">
                             <img src="assets/onepage2/img/clients/modelzkartonu.jpg" alt="Modele z kartonu"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-55">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-55">
                             <a href="https://konkursymodelarskie.pl" target="_blank">
                             <img src="assets/onepage2/img/clients/kmonline.png" alt="Konkurs on line"></a>
-                        </div>
+                        </div> -->
                         <div class="item" data-quote="#client-quote-56">
                             <a href="http://chemoform.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/chemoform.jpg" alt="Chemoform Polska"></a>
                         </div>
-                        <div class="item" data-quote="#client-quote-57">
+                        <!-- <div class="item" data-quote="#client-quote-57">
                             <a href="https://www.almapress.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/almapress.jpg" alt="almapress"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-58">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-58">
                             <a href="https://www.dream.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/dreamlogo.gif" alt="dream"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-59">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-59">
                             <a href="https://www.amazing-art.eu/pl/amazingart-hobby-accessories" target="_blank">
                             <img src="assets/onepage2/img/clients/amazingart.jpg" alt="AMAZING ART"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-60">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-60">
                             <a href="https://www.amazing-art.eu/platine/" target="_blank">
                             <img src="assets/onepage2/img/clients/amazingxlogo.png" alt="AMAZING ART"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-61">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-61">
                             <a href="https://www.facebook.com/Bilmodel-Makers-552270644807394" target="_blank">
                             <img src="assets/onepage2/img/clients/bilmodel.gif" alt="Bilmodel-Makers"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-62">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-62">
                             <a href="https://www.facebook.com/TopGunModel" target="_blank">
                             <img src="assets/onepage2/img/clients/topgun.gif" alt="Top Gun Model"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-63">
+                        </div> -->
+                        <!-- <div class="item" data-quote="#client-quote-63">
                             <a href="http://model-shipyard.com/pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/shipyard.jpg" alt="Shipyard"></a>
-                        </div>
+                        </div> -->
                         <!-- <div class="item" data-quote="#client-quote-15">
                             <a href="https://modelbud.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/choroszy.gif" alt="Choroszy Modelbud"></a>
@@ -827,15 +835,19 @@
                         <!-- <div class="item" data-quote="#client-quote-54">
                             <a href="https://www.halinski.com.pl/" target="_blank">
                             <img src="assets/onepage2/img/clients/halinski.jpg" alt="Wydawnictwo Haliński"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-55">
+                        </div>-->
+                        <!-- <div class="item" data-quote="#client-quote-55">
                             <a href="https://www.facebook.com/archetyponmodel/" target="_blank">
                             <img src="assets/onepage2/img/clients/archetypon.jpg" alt="Archetypon"></a>
-                        </div>
-                        <div class="item" data-quote="#client-quote-11">
+                        </div> -->
+                        <!--<div class="item" data-quote="#client-quote-56">
                             <a href="https://www.flymodel.pl" target="_blank">
                             <img src="assets/onepage2/img/clients/flymodel.jpg" alt="Wydawnictwo FLY Model"></a>
                         </div>-->
+                        <div class="item" data-quote="#client-quote-57">
+                            <a href="https://www.vena-reklama.pl" target="_blank">
+                            <img src="assets/onepage2/img/clients/vena.png" alt="VENA"></a>
+                        </div>
                     </div>
                     <!-- End Sponsorzy -->
                 </div>
@@ -1185,7 +1197,7 @@
                         <li><a href="https://www.linkedin.com/in/pawe%C5%82-m%C4%99telski-a89b34aa/"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                     <P>Utworzone przy pomocy wzoru <a href="http://www.keenthemes.com/">KeenThemes</a></P>
-                    <P>©2021 Geralt</P>
+                    <P>©2022 Geralt</P>
                 </div>
             </div>
             <!-- End Footer Coypright -->
@@ -1232,7 +1244,7 @@
        const godzina=currentDate.getHours();
        const minuta=currentDate.getMinutes();
        const dzisiaj = new Date(rok, miesiac, dzien, godzina, minuta);
-       const wynikitermin = new Date(2021,9,12,12,55,0);
+       const wynikitermin = new Date(2022,9,11,12,55,0);
        if (dzisiaj >= wynikitermin){
             $('#btn-carousel-about').text = 'Rejestracja'
             $('#btn-carousel-portfolio').text = 'Rejestracja'
@@ -1339,11 +1351,11 @@
     };
 
     function regulamin(){
-        window.location = 'Regulamin2021.pdf';
+        window.location = 'Regulamin2022.pdf';
     }
-    function procbezp(){
-        window.location = 'procedurybezp2021.pdf';
-    }
+    // function procbezp(){
+    //     window.location = 'procedurybezp2022.pdf';
+    // }
 
 </script>
 <script src="scripts.js" type="text/javascript"></script>

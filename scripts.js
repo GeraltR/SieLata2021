@@ -6,7 +6,7 @@ function CzyMozna(){
     const godzina=currentDate.getHours();
     const minuta=currentDate.getMinutes();
     const dzisiaj = new Date(rok, miesiac, dzien, godzina, minuta);
-    const wynikitermin = new Date(2021,9,12,12,55,0);
+    const wynikitermin = new Date(2022,9,11,12,55,0);
     if (dzisiaj >= wynikitermin){
         return false;
     }
@@ -22,7 +22,7 @@ function CzyMozna(){
     const godzina=currentDate.getHours();
     const minuta=currentDate.getMinutes();
     const dzisiaj = new Date(rok, miesiac, dzien, godzina, minuta);
-    const termin = new Date(2021,9,10,20,00,0);
+    const termin = new Date(2022,9,9,20,00,0);
     if (dzisiaj >= termin){
          return true;
     }
@@ -38,7 +38,7 @@ $(document).ready(function(){
     const godzina=currentDate.getHours();
     const minuta=currentDate.getMinutes();
     const dzisiaj = new Date(rok, miesiac, dzien, godzina, minuta);
-    const wynikitermin = new Date(2021,9,12,12,55,0);
+    const wynikitermin = new Date(2022,9,11,12,55,0);
     if (dzisiaj >= wynikitermin){
         $('#btn-carousel-about').text('Wyniki');
         $('#btn-carousel-portfolio').text('Wyniki');
@@ -57,7 +57,7 @@ $(document).ready(function(){
         })
     }
     else {
-        const termin = new Date(2021,9,10,20,0,0);
+        const termin = new Date(2022,9,9,20,0,0);
         if (dzisiaj > termin & dzisiaj < wynikitermin) {
             $('#btn-carousel-about').text('Wyniki');
             $('#btn-carousel-portfolio').text('Wyniki');
@@ -335,7 +335,10 @@ $(document).ready(function(){
             type:'POST',
             url:'ajax_user.php',
             dataType: 'json',
-            data:'username='+username+'&userpass='+userpass,
+            data:{
+                username: username,
+                userpass: userpass
+            },
             success: function(data){
                 if (data.uzytkownik.id != 0) {
                     $('#logowanie').hide(0);

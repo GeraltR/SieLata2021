@@ -15,9 +15,9 @@ class drukowanie {
                         <th class="duze" colspan="5">KARTA POD MODEL</th>
                         <th  class="duze" colspan="5">KARTA ODBIORU MODELU</th>
                     </tr>
-                    <tr><th class="male" colspan="5" rowspan="2">XII Festiwal Modelarski Jaworzno</br>11 - 12 wrzesień 2021</th>
-                        <th class="male" colspan="5" rowspan="2">XII Festiwal Modelarski Jaworzno</br>11 - 12 wrzesień 2021</th>
-                        <th class="male" colspan="5" rowspan="2">XII Festiwal Modelarski Jaworzno</br>11 - 12 wrzesień 2021</th>
+                    <tr><th class="male" colspan="5" rowspan="2">XII Festiwal Modelarski Jaworzno</br>10 - 11 wrzesień 2022</th>
+                        <th class="male" colspan="5" rowspan="2">XII Festiwal Modelarski Jaworzno</br>10 - 11 wrzesień 2022</th>
+                        <th class="male" colspan="5" rowspan="2">XII Festiwal Modelarski Jaworzno</br>10 - 11 wrzesień 2022</th>
                     </tr>
                 <thead><tbody>';
      return $wynik;
@@ -55,7 +55,7 @@ class drukowanie {
                 </table>
                 <div style="margin-top: 5px;">
                 <div style="width:47%;text-align:right;float:left;">
-                <p style="margin-right: 5px;margin-top:10px;font-size:16px;">©2021</p>
+                <p style="margin-right: 5px;margin-top:10px;font-size:16px;">©2022</p>
                 </div>
                 <div style="width:50%;text-align:left;float:left;">
                 <img style="text-align:left;" src="../assets/onepage2/img/sielata_logo_druk_new_bw.gif" alt="SieLata">
@@ -245,7 +245,7 @@ class drukowanie {
        if ($ARodzaj==5){ //lista dla mlodzikow i juniorow
         $dbcon=new festiwal;
         $nagroda=$dbcon->DajWartoscTabeli('uzytkownik, model, kategoria', 'max(model.Id) IdMod',
-                 'uzytkownik.id = model.IdUsr and model.IdKat = kategoria.idkat and uzytkownik.rokur + 17 >= 2021',
+                 'uzytkownik.id = model.IdUsr and model.IdKat = kategoria.idkat and uzytkownik.rokur + 17 >= 2022',
                  'uzytkownik.id', 'kategoria.klasa, kategoria.symbol, model.konkurs');
         $k=$nagroda->rowCount();
         foreach ($nagroda as $n) {
@@ -312,7 +312,7 @@ class drukowanie {
             'CONCAT_WS (" ", uzytkownik.imie, uzytkownik.nazwisko) nazwaU, uzytkownik.rokur, '.
             'Year(now())-uzytkownik.rokur wiek,  '.
             'CONCAT_WS (" ", uzytkownik.klub, uzytkownik.miasto) klubmiasto',
-            'model.IdKat = kategoria.idkat and model.IdUsr=uzytkownik.id and uzytkownik.rokur+17 >= 2021',
+            'model.IdKat = kategoria.idkat and model.IdUsr=uzytkownik.id and uzytkownik.rokur+17 >= 2022',
             'uzytkownik.imie, uzytkownik.nazwisko, kategoria.klasa, uzytkownik.klub, uzytkownik.miasto,uzytkownik.rokur',
             'uzytkownik.nazwisko, uzytkownik.imie');
     $td='<td style="text-align: center;">';
