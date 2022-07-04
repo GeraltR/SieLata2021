@@ -6,9 +6,9 @@
     --unactive: #000;
     --mainGray: #666;
     --fontTitleMain: #000;
-    --fontTitleRocznica: #f11212b4;
-    --fontSubtitle: #000;
-    --fontSubtitleDark: #6b1818;
+    --fontTitleRocznica: #DB261D;
+    --fontSubtitle: white;
+    --fontSubtitleDark: #000;
 }
 
 img.logo-default {
@@ -187,95 +187,129 @@ p.moj-error {
 }
 
 .naglowek-napis{
+    font-family: 'Ubuntu', sans-serif;
     position: fixed;
     float: right;
     margin: 5rem auto;
-    left: 73%;
-    top: 15%;
+    left: 70%;
+    top: 10%;
+    width: 28rem;
 }
 
-.naglowek-kolejny{
-    height: 9rem;
-    font-size: 8rem;
+
+.naglowek-napis .naglowek-kolejny{
+    height: 4rem;
+    font-size: 9rem;
+    text-transform: none;
     font-weight: 700;
-    color: var(--fontSubtitleDark);
+    color: var(--fontTitleRocznica);
+    line-height: 0.15;
     letter-spacing: 0.5rem;
+    text-shadow: 4px 4px 4px #000;
 }
 
 .naglowek-festiwal{
     height: 5rem;
-    font-size: 4rem;
-    font-weight: 500;
-    letter-spacing: 0.5rem;
-    color: var(--fontSubtitleDark);
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 1.3rem;
+    color: var(--mainBackground);
+    text-transform: none;
+    text-shadow: 4px 4px 4px #000;
 }
-
 
 .naglowek-modelarski{
     height: 6rem;
-    font-size: 4rem;
-    font-weight: 500;
-    letter-spacing: 0.5rem;
-    color: var(--fontSubtitleDark);
-    border-bottom: 0.5rem solid var(--fontSubtitleDark);
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: var(--mainBackground);
+    text-shadow: 4px 4px 4px #000;
+    text-transform: none;
+    /* border-bottom: 0.5rem solid var(--fontSubtitleDark); */
 }
 
 .naglowek-jaworzno{
     height: 3rem;
-    font-size: 2rem;
-    font-weight: 500;
-    color: var(--fontSubtitleDark);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--mainBackground);
     letter-spacing: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    text-shadow: 4px 4px 4px #000;
 }
 
 .naglowek-termin{
     height:3rem;
+    margin-top: 1rem;
     font-size:2rem;
-    font-weight: 500;
-    color:var(--fontSubtitleDark);
+    font-weight: 700;
+    color:var(--mainBackground);
     letter-spacing:0.5rem;
+    text-shadow: 4px 4px 4px #000;
 }
 
 @media (max-width:720px){
     .naglowek-napis{
+        display: inline-table;
+        background-color: rgba(255, 255, 255, 0.568);
         float: left;
-        margin: 1rem 1rem;
-        left: 10%;
-        top: 5%;
+        margin: 0 1rem;
+        padding: 4rem 2rem 2rem 3rem;
+        font-size: 5rem;
+        left: 2%;
+        top: 0%;
+        text-shadow: none;
     }
 
     .naglowek-kolejny{
-        height: 3rem;
+        height: 2rem;
         font-size: 4rem;
+        top: 14%;
+        color: var(--fontSubtitleDark);
+        text-shadow: none;
     }
 
+    .naglowek-napis .naglowek-kolejny{
+        text-shadow: none;
+    }
+
+
     .naglowek-festiwal{
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         padding-top: 0.5rem;
-        height: 2rem;
-        font-size: 2rem;
+        height: 4rem;
+        font-size: 4rem;
+        color: var(--fontSubtitleDark);
+        text-shadow: none;
     }
 
     .naglowek-modelarski{
-        margin-top: 1rem;
-        height: 3rem;
-        font-size: 2rem;
-        border-bottom: 0.3rem solid var(--fontSubtitleDark);
+        margin-top: 0.5rem;
+        height: 5rem;
+        font-size: 4rem;
+        color: var(--fontSubtitleDark);
+        text-shadow: none;
+        /* border-bottom: 0.3rem solid var(--fontSubtitleDark); */
     }
 
     .naglowek-jaworzno{
         height: 2rem;
-        font-size: 1.3rem;
-        margin-top: 1rem;
+        font-size: 2rem;
+        margin-top: 0.5rem;
         font-weight: 500;
         letter-spacing: 0.3rem;
+        top: 20%;
+        color: var(--fontSubtitleDark);
+        text-shadow: none;
     }
 
     .naglowek-termin{
         height:2rem;
-        font-size:1.3rem;
+        font-size: 2rem;
         font-weight: 500;
         letter-spacing: 0.2rem;
+        color: var(--fontSubtitleDark);
+        text-shadow: none;
     }
 }

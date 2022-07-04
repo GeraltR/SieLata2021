@@ -35,7 +35,7 @@
 <!-- BEGIN THEME STYLES -->
 <link href="assets/onepage2/css/layout.css" rel="stylesheet" type="text/css"/>
 <link href="css/moje.css" rel="stylesheet" type="text/css"/>
-
+<link href="fonts/ubuntu-medium-webfont.woff " rel="stylesheet">
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="sielata_ico.png"/>
 </head>
@@ -214,6 +214,7 @@
 
     <!-- BEGIN INTRO SECTION -->
     <section id="intro">
+        <!-- data-bs-interval="false" -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -246,13 +247,13 @@
                                 XIII
                             </div>
                             <div class="row naglowek-festiwal">
-                                FESTIWAL
+                            Festiwal
                             </div>
                             <div class="row naglowek-modelarski" >
-                                MODELARSKI
+                            Modelarski
                             </div>
                             <div class="row naglowek-jaworzno">
-                                Jaworzno
+                            Jaworzno
                             </div>
                             <div class="row naglowek-termin">
                             10-11 września 2022
@@ -277,10 +278,10 @@
                                 XIII
                             </div>
                             <div class="row naglowek-festiwal">
-                                FESTIWAL
+                                Festiwal
                             </div>
                             <div class="row naglowek-modelarski" >
-                                MODELARSKI
+                                Modelarski
                             </div>
                             <div class="row naglowek-jaworzno">
                                 Jaworzno
@@ -296,16 +297,14 @@
                 <div class="item carousel-item-three">
                     <div class="container">
                         <h3 class="carousel-position-one animate-delay carousel-title-v3" data-animation="animated fadeInDown">
-                            rocznica zwycięstwa
+                        Wojna o Falklandy 1982
                         </h3>
                         <p class="carousel-position-two animate-delay carousel-subtitle-v3" style="margin-left: 5px;text-transform:none;" data-animation="animated fadeInDown">
-                        Franciszka Żwirki i Stanisława Wigury
+
                         </p>
                         <p class="carousel-position-two animate-delay carousel-subtitle-v3 carousel-subtitle-v3-1" style="margin-left: 5px;text-transform:none;letter-spacing:4px;" data-animation="animated fadeInDown">
-                        Challenge International de Tourisme
                         </p>
                         <p class="carousel-position-two animate-delay carousel-subtitle-v3 carousel-subtitle-v3-2" style="margin-left: 5px;text-transform:none;letter-spacing:3px;" data-animation="animated fadeInDown">
-                        1932-2022
                         </p>
                         <!--<a href="#about" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">O nas</a> -->
                         <a id="btn-carousel-about" href="#clients" class="carousel-position-three animate-delay btn-brd-white" data-animation="animated fadeInUp">Rejestracja</a>
@@ -314,10 +313,10 @@
                                 XIII
                             </div>
                             <div class="row naglowek-festiwal">
-                                FESTIWAL
+                                Festiwal
                             </div>
                             <div class="row naglowek-modelarski" >
-                                MODELARSKI
+                                Modelarski
                             </div>
                             <div class="row naglowek-jaworzno">
                                 Jaworzno
