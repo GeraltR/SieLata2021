@@ -60,7 +60,7 @@
                         </span>
                     </button>
                     <a class="navbar-brand" href="#intro">
-                        <img class="logo-default" src="assets/onepage2/img/sielata_logo_53.gif" alt="SieLata">
+                        <img class="logo-default" src="assets/onepage2/img/sielata_logo_53w.gif" alt="SieLata">
                         <img class="logo-default-mobile" style="display:none;" src="assets/onepage2/img/sielata_logo_53.gif" alt="SieLata">
                         <img class="logo-scroll" src="assets/onepage2/img/sielata_logo_53.gif" alt="SieLata">
                     </a>
