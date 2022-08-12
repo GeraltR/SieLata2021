@@ -1,5 +1,7 @@
 <?php
- require_once('stale.php');
+
+ require_once ('stale.php');
+
  $user_id = 0;
  $user_name='';
 
@@ -27,14 +29,14 @@ class festiwal {
    }
 
    function close() {
-     try {
-      $this->dbcon->close();
-     } catch (PDOException $e) {
-         http_response_code(500);
-         echo json_encode([
-             'message' => 'Błąd podłączenia do dancyh: ' . $e->getMessage()
-         ]);
-      }
+    //  try {
+    //   $this->dbcon->close();
+    //  } catch (PDOException $e) {
+    //      http_response_code(500);
+    //      echo json_encode([
+    //          'message' => 'Błąd podłączenia do dancyh: ' . $e->getMessage()
+    //      ]);
+    //   }
 
    }
 
@@ -185,7 +187,7 @@ class festiwal {
 
     function Daj_UnikalnyKod($ALogin){
       $sql='login="'.$ALogin.'"';
-      $wynik=$this->DajWiersz('uzytkownik', 'kod,email', $sql);
+      $wynik=$this->DajWiersz('uzytkownik', "kod,email,imie,nazwisko", $sql);
       return $wynik;
     }
 
