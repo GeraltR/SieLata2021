@@ -1,9 +1,7 @@
-<?PHP
-    error_reporting(0);
-
-	require_once 'lib/baza.php';
-	require_once './vendor/autoload.php';
-	require_once 'lib/wysylka.php';
+<?php
+    require_once('./vendor/autoload.php');
+	require_once('lib/baza.php');
+	require_once('lib/wysylka.php');
 
 	$UserName = $_POST['username'];
 	$response = array();
